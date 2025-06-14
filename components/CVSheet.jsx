@@ -8,7 +8,7 @@ function CVSheet(){
   //GeneralInfo
   const [generalInfo, setGeneralInfo] = useState(
   {
-  fullName: '',
+  fullName: 'Mark Deez',
   email: 'markdeez@example.com',
   phoneNumber: '00287238428', 
   gitHubUser: 'mark-deez', 
@@ -20,7 +20,9 @@ function CVSheet(){
     {
       companyName: 'Odin Corporation',
       positionTitle: 'Full Stack Dev',
-      mainResponsibility: 'Built both front-end and back-end parts of web applications, managed databases, ensured security, handled deployment, and collaborated with teams to create efficient solutions.'
+      mainResponsibility: 'Built both front-end and back-end parts of web applications, managed databases, ensured security, handled deployment, and collaborated with teams to create efficient solutions.',
+      dateFrom: '', 
+      dateTo: ''
     }
   )
   
@@ -101,7 +103,7 @@ function CVSheet(){
         {/* End Educational Exp */}
 
         {/* Skills Info */}
-          <div className="skill-info" >
+          <div className="section skill-info" >
           <h4> Skills </h4> 
           <p>
           <strong>Technical:</strong> {skillsInfo.technicalSkills}
@@ -123,7 +125,7 @@ function CVSheet(){
           <strong>Company:</strong> {practicalExp.companyName}
           </p>
           <p>
-          <strong>Duration:</strong> 
+          <strong>Duration:</strong> {practicalExp.dateFrom} - {practicalExp.dateTo} 
           </p>
           <p>
           <strong>Role:</strong> {practicalExp.positionTitle}
