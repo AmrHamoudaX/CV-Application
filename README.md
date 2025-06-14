@@ -18,15 +18,17 @@ A dynamic, client-side **CV/Resume Generator** built with React and hosted on Ne
 
 ## 🖥️ Tech Stack
 
-```bash
+````bash
 React (with Hooks)
 JavaScript (ES6+)
 CSS (Modular/Global)
-Netlify for hosting
-```
+Netlify for hosting```
 
-📂 Folder Structure
-plaintext
+---
+
+## 📂 Folder Structure
+
+```plaintext
 Copy
 Edit
 src/
@@ -39,15 +41,14 @@ src/
 ├── styles/
 │ └── App.css
 ├── index.js
-└── index.html
+└── index.html```
 
-🔧 Getting Started
+```markdown
+## 🔧 Getting Started
+
 To run this project locally:
 
-bash
-Copy
-Edit
-
+```bash
 # Clone the repository
 
 git clone https://github.com/your-username/your-repo.git
@@ -59,22 +60,30 @@ npm install
 
 # Start the development server
 
-npm start
+npm start```
+
 The app will open at http://localhost:3000
 
-📤 Deploying to Netlify
-Push the project to a GitHub repository
+```markdown
+## 📤 Deploying to Netlify
 
-Log in to Netlify
+1. Push the project to a GitHub repository
 
-Click "Add new site" > "Import from Git"
+2. Log in to Netlify
 
-Select your GitHub repo
+3. Click **"Add new site"** > **"Import from Git"**
 
-Set:
+4. Select your GitHub repo
+
+5. Set:
+
+```bash
 
 Build command: npm run build
 
 Publish directory: build/
+````
 
-Click Deploy Site
+6. Click **Deploy Site** and wait for the deployment to finish.
+
+7. Your site will be live at the Netlify-assigned URL (you can customize it in site settings).```
