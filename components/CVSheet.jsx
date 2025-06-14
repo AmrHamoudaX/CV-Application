@@ -1,3 +1,4 @@
+import {format} from 'date-fns'
 import PracticalExperience from "./PracticalExp" 
 import EducationalExp from "./EducationalExp"
 import GeneralInfo from "./GeneralInfo"
@@ -21,8 +22,8 @@ function CVSheet(){
       companyName: 'Odin Corporation',
       positionTitle: 'Full Stack Dev',
       mainResponsibility: 'Built both front-end and back-end parts of web applications, managed databases, ensured security, handled deployment, and collaborated with teams to create efficient solutions.',
-      dateFrom: '', 
-      dateTo: ''
+      dateFrom: '01/01/2025', 
+      dateTo: '01/01/2026'
     }
   )
   
@@ -125,7 +126,7 @@ function CVSheet(){
           <strong>Company:</strong> {practicalExp.companyName}
           </p>
           <p>
-          <strong>Duration:</strong> {practicalExp.dateFrom} - {practicalExp.dateTo} 
+          <strong>Duration:</strong> {format(practicalExp.dateFrom, 'dd/MM/yyyy')} - {format(practicalExp.dateTo, 'dd/MM/yyyy')} 
           </p>
           <p>
           <strong>Role:</strong> {practicalExp.positionTitle}
