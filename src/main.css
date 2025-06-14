@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #2a7b9b;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+input {
+  width: 90%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+h1 {
+  color: #b7e0ff;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+fadeInUp animation {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+button {
+  background-color: #b043b1;
+  background-color: #2a7b9b;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+textarea {
+  width: 90%;
+  min-height: 65px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  color: #87a2ff;
+  color: #e7cccc;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  /*opacity: 0;*/
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.centered-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.section h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid #424141;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.section p {
+  margin: 4px 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.main-section {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.section-card h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #bc63be;
+  border-bottom: 2px solid #2a7b9b;
+  padding-bottom: 0.5rem;
+}
+
+.cv-sheet {
+  width: 35rem;
+  height: 44rem;
+  background-color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  overflow-wrap: break-word;
+  margin: 20px auto;
+  padding: 3rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-image: initial;
+}
+
+.gen-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.center-line {
+  margin: 6px 0;
+  font-size: 0.8rem;
+  color: #333;
+  word-wrap: break-word;
+}
