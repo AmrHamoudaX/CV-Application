@@ -8,8 +8,8 @@ function handleSubmit(e){
       <form onSubmit={handleSubmit}>
         <input name="companyName" value={info.companyName} onChange={onChange}  placeholder="Company Name"/>
         <input name="positionTitle" value={info.positionTitle} onChange={onChange} placeholder="Position Title"/>
-        <input  type="date" placeholder="Company Name"/>
-        <input type="date" placeholder="Company Name"/>
+        <input name="dateFrom" value={info.dateFrom} onChange={onChange}  type="date" placeholder="Company Name"/>
+        <input name="dateTo" value={info.dateTo} onChange={onChange} type="date" placeholder="Company Name"/>
         <textarea name="mainResponsibility" value={info.mainResponsibility} onChange={onChange} placeholder="Main Responsibilities" ></textarea>
         <button type="submit"> Submit </button>
       </form>
