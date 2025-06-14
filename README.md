@@ -18,10 +18,10 @@ A dynamic, client-side **CV/Resume Generator** built with React and hosted on Ne
 
 ## 🖥️ Tech Stack
 
-React (with Hooks)
-JavaScript (ES6+)
-CSS (Modular/Global)
-Netlify for hosting
+- React (with Hooks)
+- JavaScript (ES6+)
+- CSS (Modular/Global)
+- Netlify for hosting
 
 ---
 
